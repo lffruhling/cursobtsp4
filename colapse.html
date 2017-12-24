@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-sacle = 1, skrink-to-fit = no">
+	<title>Carousel</title>
+
+	<!-- Bootstrap 4 css-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<p>
+					<a href="#item_1" class="btn btn-primary" data-toggle="collapse"> Abre Collapse 1 link href</a>
+					<button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#item_1">  Abre Collapse 1 button</button>
+				</p>
+				<div class="collapse" id="item_1">
+					<div class="card card-body">
+						texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<p>
+					<a href="#item_2" class="btn btn-primary" data-toggle="collapse"> Abre Collapse 1 link href</a>
+					<button class="btn btn-primary" data-toggle="collapse" type="button" data-target="#item_3">  Abre Collapse 1 button</button>
+				</p>
+				<div class="collapse" id="item_2">
+					<div class="card card-body">
+						<h4>item 1</h4>
+						texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+					</div>
+				</div>
+				<div class="collapse" id="item_3">
+					<div class="card card-body">
+						<h4>item 2</h4>
+						texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<div id="accordion" role="tablist">
+					<div class="card">
+						<div class="card-header" role="tab" id="header1">
+							<h5 class="mb-0">
+								<a href="#colapse1" data-toggle="collapse"> link colapse 1</a>
+							</h5>
+						</div>
+						<div id="colapse1" class="collapse show" role="tabpanel" data-parent="#accordion">
+							<div class="card-body">
+								<h5>item colapse 1</h5>
+								texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+							</div>
+						</div>
+
+						<div class="card-header" role="tab" id="header2">
+							<h5 class="mb-0">
+								<a href="#colapse2" data-toggle="collapse"> link colapse 2</a>
+							</h5>
+						</div>
+						<div id="colapse2" class="collapse" role="tabpanel" data-parent="#accordion">
+							<div class="card-body">
+								<h5>item colapse 2</h5>
+								texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+							</div>
+						</div>
+
+						<div class="card-header" role="tab" id="header3">
+							<h5 class="mb-0">
+								<a href="#colapse3" data-toggle="collapse"> link colapse 2</a>
+							</h5>
+						</div>
+						<div id="colapse3" class="collapse" role="tabpanel" data-parent="#accordion">
+							<div class="card-body">
+								<h5>item colapse 2</h5>
+								texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap 4 js-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
